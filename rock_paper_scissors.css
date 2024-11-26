@@ -1,0 +1,48 @@
+body{
+  background-color: rgb(25, 25, 25);
+  color: white;
+  font-family: Arial;
+}
+
+.element{
+  border-radius: 50%;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon{
+  background-color:transparent;
+  height: 80px;
+  padding:30px
+}
+.result-display{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.userMoveIcon, .computerMoveIcon{
+  height: 70px;
+}
+.moves-display{
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.reset, .autoPlayButton{
+  background-color: red;
+  color: white;
+  border:none;
+  padding: 15px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.autoPlayButton{
+  background-color: green;
+}
